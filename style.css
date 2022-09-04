@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: url(./img/background.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+}
+
+.navbar {
+    /*border: 2px solid red;*/
+    height: 10%;
+    background-color: black;
+    padding: 3.5px;
+    display: block;
+
+
+
+}
+
+.navbar img {
+    margin-top: 3px;
+    width: 70px;
+    left: auto;
+    margin-left: 5%;
+    display: inline-block;
+
+
+}
+
+.navbar .btn {
+    position: absolute;
+    right: 65px;
+    display: inline-block;
+    margin-top: 15px;
+    width: 8%;
+
+
+}
+
+.btn {
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    padding: 2px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: medium;
+    color: black;
+    background-color: rgba(255, 255, 255);
+    font-weight: bold;
+}
+
+.main {
+    width: 60vh;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.main>* {
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 90%;
+    background-color: rgba(255, 255, 255);
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: large;
+    color: black;
+
+}
+
+.weath-body {
+    display: none;
+    color: rgb(141, 47, 47);
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    margin: 10px 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: vh;
+    font-size: larger;
+
+}
+
+.loc-details {
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.weath-status {
+    padding: 15px;
+    margin-top: 5px;
+    line-height: 2rem;
+    color: rgb(141, 47, 47);
+}
+
+.temp {
+    font-family: Tahoma;
+    margin-top: 10px;
+    font-size: 12vh;
+    color: #DC143C;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.img img {
+
+    background-blend-mode: darken;
+    margin-top: 20px;
+    padding: 2px 5px;
+}
+
+
+.type {
+    margin-top: 0px;
+    color: #DC143C;
+    ;
+}
+
+.min-max {
+    margin-top: 5px;
+
+}
